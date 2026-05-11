@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>youtube.com/FEHI PRAJAA</title>
+<link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#000000">
+</head>
+
+<!-- COMMUNITY POPUP -->
+<div class="community-modal" id="communityModal">
+  <div class="community-modal-content">
+    <span class="community-close">&times;</span>
+
+    <h3> Our Community ! </h3>
+
+    <div class="community-icons">
+      <a href="https://www.whatsapp.com/" target="_blank" class="community-icon whatsapp">
+        <img src="whatsapp.png" alt="WhatsApp">
+        <span>WhatsApp</span>
+      </a>
+
+      <a href="https://www.instagram.com/fehiprajaa._official._/" target="_blank" class="community-icon instagram">
+        <img src="instagram.png" alt="Instagram">
+        <span>Instagram</span>
+      </a>
+
+      <a href="https://www.youtube.com/@FehiPrajaa/" target="_blank" class="community-icon youtube">
+        <img src="youtube.png" alt="YouTube">
+        <span>YouTube</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Playlist Popup -->
+<div class="playlist-modal" id="playlistModal">
+  <div class="playlist-modal-content">
+    <span class="playlist-close" id="closePlaylist">&times;</span>
+    <h3>Your Playlists</h3>
+
+    <!-- Playlist Row -->
+    <div class="playlist-row">
+      <!-- Playlist Card 1 -->
+      <div class="playlist-card">
+        <a href="https://www.youtube.com/playlist?list=PL1Ajj597zdJ0smDo03GiFTKJ63_wCtW_g" target="_blank">
+          <div class="playlist-thumb" style="background-image:url('https://img.youtube.com/vi/h68XbFVNcSo/hqdefault.jpg');"></div>
+          <div class="playlist-title-btn">VLOGS ✨</div>
+        </a>
+      </div>
+
+      <!-- Playlist Card 2 -->
+      <div class="playlist-card">
+        <a href="https://www.youtube.com/playlist?list=PL1Ajj597zdJ0Nn4DLY5plngI6iw0ChZkz" target="_blank">
+          <div class="playlist-thumb" style="background-image:url('https://img.youtube.com/vi/ZMMwSfl4dMc/hqdefault.jpg');"></div>
+          <div class="playlist-title-btn">CHALLENGES 💪</div>
+        </a>
+      </div>
+
+      <!-- Playlist Card 3 -->
+      <div class="playlist-card">
+        <a href="https://www.youtube.com/playlist?list=PL1Ajj597zdJ3BEN37kPr8FjEyOrAE-P-Q" target="_blank">
+          <div class="playlist-thumb" style="background-image:url('https://img.youtube.com/vi/IK_QM2_h1Fs/hqdefault.jpg');"></div>
+          <div class="playlist-title-btn">COOKING 👩‍🍳</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<body>
+
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<!-- VIDEO BACKGROUND -->
+<video autoplay muted loop playsinline id="bg-video">
+  <source src="background.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<!-- =========================
+     DESKTOP / LAPTOP HEADER
+========================= -->
+<header class="header-desktop">
+  <nav class="left-nav">
+    <a href="#home">Home</a>
+    <a href="#videos">Videos</a>
+    <a href="#shorts">Shorts</a>
+    <a href="#playlist">Playlist</a>
+    <a href="#community">Community</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <a class="subscribe" href="https://www.youtube.com/@FehiPrajaa?sub_confirmation=1" target="_blank">
+    Subscribe
+  </a>
+</header>
+
+<!-- =========================
+     MOBILE HEADER
+========================= -->
+<header class="header-mobile">
+  <button id="menuBtn" class="menu-btn">☰</button>
+  <a class="subscribe-mobile" href="https://www.youtube.com/@FehiPrajaa?sub_confirmation=1" target="_blank">
+    Subscribe
+  </a>
+</header>
+
+
+<!-- MOBILE SIDEBAR -->
+<nav class="mobile-left-nav" id="mobileNav">
+  <button class="back-btn" id="backBtn">←</button>
+
+  <a href="#home">Home</a>
+  <a href="#videos">Videos</a>
+  <a href="#shorts">Shorts</a>
+  <a href="#playlist">Playlist</a>
+  <a href="#community">Community</a>
+  <a href="#about">About</a>
+</nav>
+
+<!-- =========================
+     SMART TV HEADER
+========================= -->
+<header class="header-tv">
+  <nav class="tv-nav">
+    <a href="#home">Home</a>
+    <a href="#videos">Videos</a>
+    <a href="#shorts">Shorts</a>
+    <a href="#playlist">Playlist</a>
+    <a href="#community">Community</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <a class="subscribe-tv" href="https://www.youtube.com/@FehiPrajaa?sub_confirmation=1" target="_blank">
+    Subscribe
+  </a>
+</header>
+
+
+<!-- HERO (same for all devices) -->
+<section class="hero" id="home">
+  <img src="ChannelLogo.jpeg" alt="FEHI PRAJAA Logo" class="channel-logo">
+  <h1>Welcome to Fehi Prajaa Channel</h1>
+  <p>Content • Vlogs • Cooking</p>
+</section>
+
+<!-- VIDEOS -->
+<section id="videos" class="section">
+  <h2>Videos</h2>
+  <div class="grid">
+
+    <a href="https://www.youtube.com/watch?v=w3cDQ7VHOZw?autoplay=1" target="_blank" class="card">
+      <img src="Video1.jpeg" alt="Video 1">
+      <p class="title">Sneezing Challenge Part 2</p>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=8Ke9Wg08g9E?autoplay=1" target="_blank" class="card">
+      <img src="Video2.jpeg" alt="Video 2">
+      <p class="title">Sneezing Challenge Part 1</p>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=8ePER-zF7PM?autoplay=1" target="_blank" class="card">
+      <img src="Video3.jpeg" alt="Video 3">
+      <p class="title">Guess the தமிழ் Song Challenge</p>
+    </a>
+
+    <a href="https://www.youtube.com/watch?v=m_QKwALZcys?autoplay=1" target="_blank" class="card">
+      <img src="Video4.jpeg" alt="Video 4">
+      <p class="title">A Walk in Office Campus </p>
+    </a>
+
+  </div>
+</section>
+
+<!-- SHORTS -->
+<section id="shorts" class="section">
+  <h2>Shorts</h2>
+  <div class="shorts-row">
+    <a href="https://youtube.com/shorts/2M76qoSCZ7g?autoplay=1" target="_blank" class="short-card">
+      <div class="short-thumb" style="background-image: url('https://img.youtube.com/vi/2M76qoSCZ7g/maxresdefault.jpg');">
+        <div class="short-title-btn">I Still tell him......😍</div>
+      </div>
+    </a>
+
+    <a href="https://youtube.com/shorts/1aDMoVUC0Kg?autoplay=1" target="_blank" class="short-card">
+      <div class="short-thumb" style="background-image: url('https://img.youtube.com/vi/1aDMoVUC0Kg/maxresdefault.jpg');">
+        <div class="short-title-btn">Happy Birthday 🎂</div>
+      </div>
+    </a>
+
+    <a href="https://youtube.com/shorts/ynwNzVRZx88?autoplay=1" target="_blank" class="short-card">
+      <div class="short-thumb" style="background-image: url('https://img.youtube.com/vi/ynwNzVRZx88/maxresdefault.jpg');">
+        <div class="short-title-btn">Naanum Singer Thaan 🎤</div>
+      </div>
+    </a>
+
+    <a href="https://youtube.com/shorts/s4WPSOXfy54?autoplay=1" target="_blank" class="short-card">
+      <div class="short-thumb" style="background-image: url('https://img.youtube.com/vi/s4WPSOXfy54/maxresdefault.jpg');">
+        <div class="short-title-btn">Embracing the Elegance of Beauty ❤️</div>
+      </div>
+    </a>
+
+    <a href="https://youtube.com/shorts/cK10i3s6d1Y?autoplay=1" target="_blank" class="short-card">
+      <div class="short-thumb" style="background-image: url('https://img.youtube.com/vi/cK10i3s6d1Y/maxresdefault.jpg');">
+        <div class="short-title-btn"> Waka Waka Dance 💃</div>
+      </div>
+    </a>
+
+    <a href="https://youtube.com/shorts/BIKGWHO69ro?autoplay=1" target="_blank" class="short-card">
+      <div class="short-thumb" style="background-image: url('https://img.youtube.com/vi/BIKGWHO69ro/maxresdefault.jpg');">
+        <div class="short-title-btn"> Every Sister About Brother 😁</div>
+      </div>
+    </a>
+  </div>
+  <div class="shorts-dots">⋯</div>
+</section>
+
+<!-- PLAYLIST -->
+<section id="playlist" class="section">
+  <div class="playlist-header">
+    <h2>Playlists</h2>
+<a class="playlist-btn" onclick="openPlaylistModal()">View Playlists</a>
+  </div>
+</section>
+
+<!-- COMMUNITY -->
+<section id="community" class="section">
+  <h2>Community</h2>
+  <p>Updates, announcements and polls.</p>
+  <a href="https://www.instagram.com/" target="_blank" class="community-btn">Join Our Community</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Us</h2>
+  <div class="about-grid">
+    <div class="about-card" data-person="1">
+      <img src="Person1.jpeg" alt="Person 1" class="about-photo">
+      <h3 class="about-name">Ashlin Prajaa P J</h3>
+      <p class="about-role">Content Creator • Vlogger • Editor</p>
+    </div> 
+
+    <div class="about-card" data-person="2">
+      <img src="Person2.jpeg" alt="Person 2" class="about-photo">
+      <h3 class="about-name">Ashmin Prajaa P J</h3>
+      <p class="about-role">Content Creator • Vlogger</p>
+    </div>
+
+    <div class="about-card no-hover" data-person="4">
+      <img src="Person4.jpeg" alt="Person 4" class="about-photo">
+      <h3 class="about-name">Nithica M</h3>
+      <p class="about-role">Content Creator • Vlogger</p>
+    </div> 
+
+    <div class="about-card" data-person="3">
+      <img src="Person3.jpeg" alt="Person 3" class="about-photo">
+      <h3 class="about-name">Jerish M</h3>
+      <p class="about-role">Content Creator • Vlogger • Cameraman</p>
+    </div>
+  </div>
+</section>
+<!-- WHATSAPP COMMUNITY PAGE -->
+<div class="whatsapp-modal" id="whatsappModal">
+  <div class="whatsapp-content">
+    <button class="back-popup" id="backToCommunity">← Back</button>
+
+    <img src="whatsapp.png" class="whatsapp-logo floating" alt="WhatsApp">
+
+    <h3>WhatsApp Community</h3>
+
+    <button class="whatsapp-progress-btn" id="progressBtn">
+      Under Progress
+    </button>
+  </div>
+</div>
+
+<!-- UNDER PROGRESS POPUP -->
+<div class="progress-modal" id="progressModal">
+  <div class="progress-content">
+    <button class="back-popup" id="backToWhatsapp">← Back</button>
+
+    <h3>Check Us On</h3>
+
+    <div class="progress-icons">
+  <a href="https://www.youtube.com/@FehiPrajaa/" target="_blank" class="progress-icon youtube floating">
+    <img src="youtube.png" alt="YouTube">
+    <span class="icon-label youtube-label">YouTube</span>
+  </a>
+
+  <a href="https://www.instagram.com/fehiprajaa._official._/" target="_blank" class="progress-icon instagram floating">
+    <img src="instagram.png" alt="Instagram">
+    <span class="icon-label instagram-label">Instagram</span>
+  </a>
+</div>
+
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="aboutModal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <div class="modal-body">
+      <img src="" alt="Person Photo" class="modal-photo">
+      <h3 class="modal-name"></h3>
+      <p class="modal-role"></p>
+      <p class="modal-desc"></p>
+      <a href="#" target="_blank" class="modal-instagram-btn">Follow on Instagram</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Copyright © 2026 FEHI PRAJAA ™. Designed by LandingGenie</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
